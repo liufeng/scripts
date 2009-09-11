@@ -12,7 +12,7 @@ First upload to GitHub.com on Sep 11, 2009
 USAGE
 
 1. Put the url of the video page
-(ie. http://www.youjizz.com/videos/amiia-and-dani-fucked-together-138767.html)
+(ie. http://www.youjizz.com/videos/asian-public-store-sex-138675.html)
 in a text file. Each line should have one url.
 
 2. Pass the file as the argument of this script. It will print the video links
@@ -29,11 +29,10 @@ require 'rubygems'
 require 'open-uri'
 require 'hpricot'
 
-#url = 'http://www.youjizz.com/videos/asian-public-store-sex-138675.html'
 File.open(ARGV[0]) do |file|
   while url = file.gets
-    doc = Hpricot(open(url))
-    lines = doc.to_s.split
+    page = Hpricot(open(url))
+    lines = page.to_s.split
     flv = Array.new
     lines.each do |line|
       flv << line if line =~ /flv/
