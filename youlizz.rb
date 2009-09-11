@@ -1,15 +1,15 @@
 #!/usr/bin/env ruby
 
 =begin
-INTRODUCTION
+==INTRODUCTION
 
 This script is for getting the download video from YouJizz.com
 
-VERSION
+==VERSION
 
 First upload to GitHub.com on Sep 11, 2009
 
-USAGE
+==USAGE
 
 1. Put the url of the video page
 (ie. http://www.youjizz.com/videos/asian-public-store-sex-138675.html)
@@ -18,7 +18,7 @@ in a text file. Each line should have one url.
 2. Pass the file as the argument of this script. It will print the video links
 to the STDOUT.
 
-Internet connection is required. :)
+Internet connection is required. :-)
 
 Enjoy!
 
