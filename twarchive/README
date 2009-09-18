@@ -1,0 +1,14 @@
+README
+======
+
+0. Make sure you have ruby, sqlite3, twitter4r and sqlite3-ruby
+   installed properly. twitter4r and sqlite3-ruby can be installed by
+   RubyGem.
+
+1. Edit the 'config.yml' file. Put your Twitter username and password
+   in the right place.
+
+2. Run 'init.rb'. It will create a database file, contains your
+   twitter entries.
+
+3. Run 'update.rb' to update your database.
