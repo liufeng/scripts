@@ -3,7 +3,7 @@
 =begin
 ==INTRODUCTION
 
-This script is for getting the download video from YouJizz.com
+This script is for getting the links of the video from YouJizz.com
 
 ==VERSION
 
