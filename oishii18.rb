@@ -43,5 +43,3 @@ pics.each do |pic|
   m = /\/tn/.match(pic)
   puts m.pre_match + m.post_match
 end
-
-#http://www.oishii18.com/jav/mika-orihara/mika-orihara-in-a-shiny-swimsuit/tn/0fb9965df5d9f730213d06ae78e1b428.jpg
