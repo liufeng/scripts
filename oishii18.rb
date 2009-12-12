@@ -33,6 +33,15 @@ url = ARGV[0]
 page = Nokogiri::HTML(open(url))
 lines = page.to_s.split(/\n/)
 
+pics = Array.new
+
 lines.each do |line|
-  puts "http://www.oishii18.com" + $1 if line =~ /<img src="(.*)" alt=/
+  pics << "http://www.oishii18.com" + $1 if line =~ /<img src="(.*)" alt=/
 end
+
+pics.each do |pic|
+  m = /\/tn/.match(pic)
+  puts m.pre_match + m.post_match
+end
+
+#http://www.oishii18.com/jav/mika-orihara/mika-orihara-in-a-shiny-swimsuit/tn/0fb9965df5d9f730213d06ae78e1b428.jpg
